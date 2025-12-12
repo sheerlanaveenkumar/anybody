@@ -31,6 +31,15 @@ export const metadata: Metadata = {
         description: "Timeless, body-inclusive fashion designed with empathy, precision, and confidence.",
         images: ["https://lovable.dev/opengraph-image-p98pqg.png"],
     },
+    icons: {
+        icon: "/favicon.svg",
+        shortcut: "/favicon.svg",
+        apple: "/apple-touch-icon.png",
+        other: [
+            { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" },
+            { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#000000" }
+        ],
+    },
 };
 
 export default function RootLayout({
@@ -40,6 +49,14 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <link rel="manifest" href="/site.webmanifest" />
+                <link rel="icon" href="/favicon.svg" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon.svg" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+                <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
+            </head>
             <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
                 <Providers>{children}</Providers>
             </body>
