@@ -110,8 +110,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$providers$2e$t
 ;
 ;
 const metadata = {
+    metadataBase: new URL('https://anybody.ae'),
     title: "AnyBody | Luxury, Body-Inclusive Fashion in the UAE",
     description: "Discover AnyBody - a premium, body-inclusive fashion brand redefining luxury for every body. Download the app for timeless design and effortless confidence.",
+    keywords: [
+        "luxury fashion",
+        "body inclusive",
+        "UAE fashion",
+        "premium clothing",
+        "timeless design",
+        "women's fashion"
+    ],
     authors: [
         {
             name: "AnyBody"
@@ -120,6 +129,9 @@ const metadata = {
     openGraph: {
         title: "AnyBody | Luxury, Body-Inclusive Fashion in the UAE",
         description: "Timeless, body-inclusive fashion designed with empathy, precision, and confidence.",
+        url: 'https://anybody.ae',
+        siteName: 'AnyBody',
+        locale: 'en_AE',
         type: "website",
         images: [
             "https://lovable.dev/opengraph-image-p98pqg.png"
@@ -149,91 +161,32 @@ const metadata = {
                 color: "#000000"
             }
         ]
+    },
+    manifest: '/manifest.webmanifest',
+    alternates: {
+        canonical: '/'
     }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "manifest",
-                        href: "/site.webmanifest"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 53,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        href: "/favicon.svg"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 54,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        type: "image/png",
-                        sizes: "32x32",
-                        href: "/favicon.svg"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 55,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        type: "image/png",
-                        sizes: "16x16",
-                        href: "/favicon.svg"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 56,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "apple-touch-icon",
-                        href: "/apple-touch-icon.png"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 57,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "mask-icon",
-                        href: "/safari-pinned-tab.svg",
-                        color: "#000000"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 58,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 52,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-                className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_c15e96cb$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$playfair_display_fed1534a$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} font-sans antialiased`,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$providers$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Providers"], {
-                    children: children
-                }, void 0, false, {
-                    fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 61,
-                    columnNumber: 17
-                }, this)
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+            className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_c15e96cb$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$playfair_display_fed1534a$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} font-sans antialiased`,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$providers$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Providers"], {
+                children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 60,
-                columnNumber: 13
+                lineNumber: 64,
+                columnNumber: 17
             }, this)
-        ]
-    }, void 0, true, {
+        }, void 0, false, {
+            fileName: "[project]/src/app/layout.tsx",
+            lineNumber: 63,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 51,
+        lineNumber: 62,
         columnNumber: 9
     }, this);
 }
