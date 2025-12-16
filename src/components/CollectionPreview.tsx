@@ -111,13 +111,13 @@ const CollectionPreview = () => {
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Designed to flatter. <br /> Made to feel good.
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-lg text-muted-foreground">
             Every stitch, every seam, every silhouette is shaped to celebrate, not conceal, your body.
           </p>
-          <p className="text-xl text-muted-foreground">
-            We source world-class fabrics and focus on timeless essentials that feel as luxe as they look.
+          <p className="text-lg text-muted-foreground">
+            We source world-class fabrics and timeless essentials that feel as luxe as they look.
           </p>
-          <p className="text-xl text-muted-foreground mt-4">
+          <p className="text-lg text-muted-foreground mt-4">
             Whether it’s elevated everyday wear or standout occasion pieces, you’ll always feel styled, never squeezed.
           </p>
         </motion.div>

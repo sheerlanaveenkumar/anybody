@@ -21,7 +21,7 @@ const BrandStory = () => {
   return (
     <section
       id="brand-story"
-      className="py-24 md:py-32 bg-background"
+      className="py-20 md:py-20 bg-background"
     >
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -36,7 +36,7 @@ const BrandStory = () => {
             <Image
               src={brandStoryImg}
               alt="Model in tailored neutral outfit showcasing British-inspired design"
-              className="w-full h-auto rounded-lg shadow-elegant"
+              className="w-[600px] h-[700px] rounded-lg shadow-elegant"
               placeholder="blur"
             />
           </motion.div>
