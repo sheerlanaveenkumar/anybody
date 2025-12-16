@@ -2,18 +2,23 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: 'AnyBody | Luxury, Body-Inclusive Fashion in the UAE',
+        name: 'AnyBody Luxury Plus-Size Fashion in Dubai, Abu Dhabi & UAE',
         short_name: 'AnyBody',
-        description: 'Timeless, body-inclusive fashion designed with empathy, precision, and confidence.',
+        description: 'AnyBody offers luxury, size-inclusive fashion designed from scratch for plus-size bodies. Premium fabrics, effortless fits, and flattering cuts available across Dubai, Abu Dhabi and the UAE via the AnyBody app',
         start_url: '/',
+        id: '/',
+        scope: '/',
+        lang: 'en',
+        orientation: 'portrait',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ffffff',
+        categories: ['shopping', 'lifestyle', 'fashion'],
         icons: [
             {
-                src: '/favicon.svg',
+                src: '/favicon.png',
                 sizes: 'any',
-                type: 'image/svg+xml',
+                type: 'image/png',
             },
             {
                 src: '/favicon.png',

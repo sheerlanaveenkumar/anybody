@@ -32,7 +32,7 @@ const Features = () => {
     {
       icon: Ruler,
       title: "Authentic Fit",
-      description: "Each pattern engineered around diverse body shapes—not scaled up.",
+      description: "Each pattern engineered around diverse body shapes not scaled up.",
     },
     {
       icon: Sparkles,
@@ -52,8 +52,8 @@ const Features = () => {
   ];
 
   return (
-    <section 
-      id="features" 
+    <section
+      id="features"
       ref={sectionRef}
       className="py-24 md:py-32 bg-accent"
     >
@@ -68,7 +68,7 @@ const Features = () => {
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {features.map((feature, index) => (
-            <div 
+            <div
               key={index}
               className="scroll-reveal bg-card p-8 rounded-lg shadow-soft hover:shadow-elegant transition-all duration-300 text-center"
             >
@@ -81,8 +81,8 @@ const Features = () => {
 
         {/* CTA */}
         <div className="text-center scroll-reveal">
-          <ButtonCustom 
-            variant="default" 
+          <ButtonCustom
+            variant="default"
             size="lg"
             onClick={() => alert('Size guide feature coming soon!')}
           >

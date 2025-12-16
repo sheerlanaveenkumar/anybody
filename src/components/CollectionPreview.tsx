@@ -115,7 +115,7 @@ const CollectionPreview = () => {
             From precision tailoring to fluid silhouettes, every piece tells a story of comfort, elegance, and self-expression.
           </p>
           <p className="text-lg text-muted-foreground mt-4">
-            Experience fashion that complements individuality—not conformity.
+            Experience fashion that complements individuality not conformity.
           </p>
         </motion.div>
 

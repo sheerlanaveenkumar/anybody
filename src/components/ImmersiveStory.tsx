@@ -64,8 +64,8 @@ const ImmersiveStory = () => {
             <h2
               key={word}
               className={`text-6xl md:text-8xl font-bold absolute transition-all duration-1000 ${activeWord === index
-                  ? 'opacity-100 transform scale-100'
-                  : 'opacity-0 transform scale-90'
+                ? 'opacity-100 transform scale-100'
+                : 'opacity-0 transform scale-90'
                 }`}
             >
               {word}
@@ -79,7 +79,7 @@ const ImmersiveStory = () => {
             Step into a world where luxury meets empathy.
           </p>
           <p className="text-lg md:text-xl">
-            Where every stitch is guided by craftsmanship, and every curve is celebrated—not corrected.
+            Where every stitch is guided by craftsmanship, and every curve is celebrated not corrected.
           </p>
         </div>
 

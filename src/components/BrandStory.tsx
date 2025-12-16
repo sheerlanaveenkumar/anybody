@@ -66,7 +66,7 @@ const BrandStory = () => {
               className="text-lg text-muted-foreground"
               variants={textVariants}
             >
-              We create timeless clothing for people often left out of traditional sizing starting from size L - 5XL with a commitment to embrace every gender identity and expression.
+              We create timeless clothing for people often left out of traditional sizing starting from size L, with a commitment to embrace every gender identity and expression.
             </motion.p>
             <motion.p
               className="text-lg text-muted-foreground"

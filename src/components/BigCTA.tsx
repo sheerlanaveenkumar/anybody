@@ -27,7 +27,7 @@ const BigCTA = () => {
           Your wardrobe evolution starts here.
         </h2>
         <p className="text-xl md:text-2xl font-light mb-12 max-w-3xl mx-auto">
-          Discover the perfect balance of luxury, comfort, and confidence — all within the AnyBody App.
+          Discover the perfect balance of luxury, comfort, and confidence all within the AnyBody App.
         </p>
 
         {/* CTAs */}
@@ -54,7 +54,7 @@ const BigCTA = () => {
 
         {/* Microcopy */}
         <p className="text-sm md:text-base text-primary-foreground/90">
-          Free download • No subscription • 30-day fit guarantee
+          Free download • No subscription • Product Satisfaction guarantee
         </p>
       </div>
     </section>

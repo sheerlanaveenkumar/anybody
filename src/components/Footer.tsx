@@ -1,4 +1,23 @@
-import { Instagram, Facebook, Twitter } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
+
+const Pinterest = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <circle cx="12" cy="12" r="10" />
+    <path d="M8 20l4-9" />
+    <path d="M10.7 13c.437 1.263 1.43 2 2.55 2c2.071 0 3.75-1.554 3.75-4a5 5 0 1 0-9.7 1.7" />
+  </svg>
+);
 
 const Footer = () => {
   return (
@@ -9,7 +28,7 @@ const Footer = () => {
           <div className="space-y-6">
             <h2 className="text-2xl font-serif font-bold tracking-tight">AnyBody</h2>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Luxury redefined for every body, every identity, every day. Embracing the unique beauty in all of us.
+              Fashion that fits - because it was made for you.
             </p>
           </div>
 
@@ -17,10 +36,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-6">Company</h3>
             <ul className="space-y-4">
-              <FooterLink href="#">About</FooterLink>
-              <FooterLink href="#">Privacy Policy</FooterLink>
-              <FooterLink href="#">Terms of Service</FooterLink>
-              <FooterLink href="#">Cookie Policy</FooterLink>
+              <FooterLink href="/">Home</FooterLink>
+              <FooterLink href="#">Privacy &amp; Cookie Policy</FooterLink>
+              {/* <FooterLink href="#">Terms of Service</FooterLink> */}
+              <FooterLink href="/#newsletter">Contact Us</FooterLink>
             </ul>
           </div>
 
@@ -30,14 +49,15 @@ const Footer = () => {
             <div className="flex gap-4">
               <SocialLink href="#" icon={<Instagram className="w-5 h-5" />} />
               <SocialLink href="#" icon={<Facebook className="w-5 h-5" />} />
-              <SocialLink href="#" icon={<Twitter className="w-5 h-5" />} />
+              {/* <SocialLink href="#" icon={<Twitter className="w-5 h-5" />} /> */}
+              <SocialLink href="#" icon={<Pinterest className="w-5 h-5" />} />
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground">
-          <p>© 2024 AnyBody. All rights reserved.</p>
+          <p>© 2025 AnyBody. All rights reserved.</p>
           {/* <div className="flex gap-8">
             <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>

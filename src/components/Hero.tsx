@@ -21,7 +21,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-primary-foreground">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in-up">
-          Luxury, redefined for<br />AnyBody.
+          Luxury, Tailored for <br /> Every Body.
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-12 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
           Timeless, body-inclusive fashion designed with empathy, precision, and confidence.
