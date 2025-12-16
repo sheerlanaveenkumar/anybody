@@ -157,7 +157,7 @@ const Hero = ()=>{
                         style: {
                             animationDelay: "0.2s"
                         },
-                        children: "Timeless, body-inclusive fashion designed with empathy, precision, and confidence."
+                        children: "Premium, size inclusive fashion designed from scratch for plus-size bodies."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
                         lineNumber: 26,
@@ -220,7 +220,7 @@ const Hero = ()=>{
                         style: {
                             animationDelay: "0.6s"
                         },
-                        children: "Seamless Shopping • Free Exchanges • Product Satisfaction Guarantee"
+                        children: "• Effortless Fits • Premium Fabrics • Free Exchanges"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
                         lineNumber: 53,
@@ -390,9 +390,9 @@ const BrandStory = ()=>{
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
-                                className: "text-4xl md:text-5xl font-bold",
+                                className: "text-3xl md:text-4xl font-bold",
                                 variants: textVariants,
-                                children: "Inclusive by design, not by trend."
+                                children: "Not extended sizes. Exclusive fits."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/BrandStory.tsx",
                                 lineNumber: 53,
@@ -401,7 +401,7 @@ const BrandStory = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
                                 className: "text-lg text-muted-foreground",
                                 variants: textVariants,
-                                children: "AnyBody is a premium, body-inclusive fashion brand rooted in British-inspired tailoring and minimalist design."
+                                children: "Most brands grade up patterns. We start with yours."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/BrandStory.tsx",
                                 lineNumber: 59,
@@ -410,7 +410,7 @@ const BrandStory = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
                                 className: "text-lg text-muted-foreground",
                                 variants: textVariants,
-                                children: "We create timeless clothing for people often left out of traditional sizing starting from size L, with a commitment to embrace every gender identity and expression."
+                                children: "At AnyBody, we create fashion specifically for plus-size bodies, using high-quality fabrics and precision tailoring that’s made to flatter, move, and last."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/BrandStory.tsx",
                                 lineNumber: 65,
@@ -419,10 +419,10 @@ const BrandStory = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
                                 className: "text-lg text-muted-foreground",
                                 variants: textVariants,
-                                children: "Our inclusivity is authentic and built into the way we design - not just in the way we communicate. Each piece is crafted to fit beautifully, feel effortless, and express quiet confidence."
+                                children: "Because feeling confident in your clothes shouldn’t feel like a compromise."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/BrandStory.tsx",
-                                lineNumber: 71,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -432,7 +432,7 @@ const BrandStory = ()=>{
                                     size: "lg",
                                     onClick: scrollToCollection,
                                     className: "mt-4",
-                                    children: "Discover Our Story"
+                                    children: "Discover The Difference"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/BrandStory.tsx",
                                     lineNumber: 79,
@@ -789,27 +789,43 @@ const CollectionPreview = ()=>{
                     className: "text-center max-w-3xl mx-auto mb-16",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl md:text-5xl font-bold mb-6",
-                            children: "Crafted with care, designed with purpose."
-                        }, void 0, false, {
+                            className: "text-4xl md:text-6xl font-bold mb-6",
+                            children: [
+                                "Designed to flatter. ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/components/CollectionPreview.tsx",
+                                    lineNumber: 112,
+                                    columnNumber: 34
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                " Made to feel good."
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/CollectionPreview.tsx",
                             lineNumber: 111,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg text-muted-foreground",
-                            children: "From precision tailoring to fluid silhouettes, every piece tells a story of comfort, elegance, and self-expression."
+                            className: "text-xl text-muted-foreground",
+                            children: "Every stitch, every seam, every silhouette is shaped to celebrate, not conceal, your body."
                         }, void 0, false, {
                             fileName: "[project]/src/components/CollectionPreview.tsx",
                             lineNumber: 114,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg text-muted-foreground mt-4",
-                            children: "Experience fashion that complements individuality not conformity."
+                            className: "text-xl text-muted-foreground",
+                            children: "We source world-class fabrics and focus on timeless essentials that feel as luxe as they look."
                         }, void 0, false, {
                             fileName: "[project]/src/components/CollectionPreview.tsx",
                             lineNumber: 117,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-xl text-muted-foreground mt-4",
+                            children: "Whether it’s elevated everyday wear or standout occasion pieces, you’ll always feel styled, never squeezed."
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/CollectionPreview.tsx",
+                            lineNumber: 120,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -831,12 +847,12 @@ const CollectionPreview = ()=>{
                             item: item
                         }, item.id, false, {
                             fileName: "[project]/src/components/CollectionPreview.tsx",
-                            lineNumber: 131,
+                            lineNumber: 134,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/src/components/CollectionPreview.tsx",
-                    lineNumber: 123,
+                    lineNumber: 126,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -848,12 +864,12 @@ const CollectionPreview = ()=>{
                         children: "Explore the Collection in the App"
                     }, void 0, false, {
                         fileName: "[project]/src/components/CollectionPreview.tsx",
-                        lineNumber: 137,
+                        lineNumber: 140,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/CollectionPreview.tsx",
-                    lineNumber: 136,
+                    lineNumber: 139,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -1021,7 +1037,7 @@ const ImmersiveStory = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xl md:text-2xl font-light",
-                                children: "Step into a world where luxury meets empathy."
+                                children: "Step into a space where your body isn't “othered” - it’s the standard."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ImmersiveStory.tsx",
                                 lineNumber: 78,
@@ -1029,7 +1045,7 @@ const ImmersiveStory = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg md:text-xl",
-                                children: "Where every stitch is guided by craftsmanship, and every curve is celebrated not corrected."
+                                children: "Where fit meets finesse. And comfort walks with confidence."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ImmersiveStory.tsx",
                                 lineNumber: 81,
@@ -1046,7 +1062,7 @@ const ImmersiveStory = ()=>{
                         size: "lg",
                         onClick: scrollToFeatures,
                         className: "border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary",
-                        children: "Begin Your Journey"
+                        children: "Begin Your Style Journey"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ImmersiveStory.tsx",
                         lineNumber: 87,
@@ -1130,23 +1146,23 @@ const Features = ()=>{
     const features = [
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ruler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Ruler$3e$__["Ruler"],
-            title: "Authentic Fit",
-            description: "Each pattern engineered around diverse body shapes not scaled up."
+            title: "True Plus-Size Design",
+            description: "Each piece is built from the ground up for curvier bodies."
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"],
             title: "Luxury Fabrics",
-            description: "Premium textiles sourced from world-class mills."
+            description: "We source only soft, breathable, premium-grade textiles."
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"],
-            title: "Inclusive Range",
-            description: "Sizes L-5XL, for all identities and expressions."
+            title: "Flawless Fit Range",
+            description: "Sizes from L to 5XL with real body prototypes - not just models."
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"],
-            title: "Crafted for Confidence",
-            description: "Minimalist silhouettes that move with you, not against you."
+            title: "Minimalist Aesthetic",
+            description: "Elevated styles that are timeless and trend-aware."
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1160,7 +1176,7 @@ const Features = ()=>{
                     className: "text-center max-w-3xl mx-auto mb-16",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-4xl md:text-5xl font-bold mb-6",
-                        children: "Designed around real bodies."
+                        children: "What makes us different? Everything."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Features.tsx",
                         lineNumber: 63,
@@ -1216,7 +1232,7 @@ const Features = ()=>{
                         variant: "default",
                         size: "lg",
                         onClick: ()=>alert('Size guide feature coming soon!'),
-                        children: "Find Your Perfect Fit"
+                        children: "Find Your Fit"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Features.tsx",
                         lineNumber: 84,
@@ -1321,7 +1337,7 @@ const Newsletter = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-4xl md:text-5xl font-bold mb-6",
-                        children: "Join the AnyBody Circle."
+                        children: "Join The AnyBody Collective"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Newsletter.tsx",
                         lineNumber: 23,
@@ -1329,7 +1345,7 @@ const Newsletter = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-lg text-muted-foreground mb-8",
-                        children: "Be the first to know about new collections, styling stories, and exclusive events."
+                        children: "Get early access to new drops, behind the scenes stories, and exclusive app only perks."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Newsletter.tsx",
                         lineNumber: 26,
@@ -1348,7 +1364,7 @@ const Newsletter = ()=>{
                                 className: "flex-1 h-12"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Newsletter.tsx",
-                                lineNumber: 36,
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2d$custom$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonCustom"], {
@@ -1358,21 +1374,21 @@ const Newsletter = ()=>{
                                 children: "Subscribe"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Newsletter.tsx",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Newsletter.tsx",
-                        lineNumber: 32,
+                        lineNumber: 31,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-sm text-muted-foreground mt-6",
-                        children: "We respect your inbox..."
+                        children: "No spam. Just style."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Newsletter.tsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -1480,7 +1496,7 @@ const BigCTA = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-5xl md:text-6xl lg:text-7xl font-bold mb-6",
-                        children: "Your wardrobe evolution starts here."
+                        children: "Your new wardrobe starts here."
                     }, void 0, false, {
                         fileName: "[project]/src/components/BigCTA.tsx",
                         lineNumber: 26,
@@ -1488,7 +1504,7 @@ const BigCTA = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-xl md:text-2xl font-light mb-12 max-w-3xl mx-auto",
-                        children: "Discover the perfect balance of luxury, comfort, and confidence all within the AnyBody App."
+                        children: "Refined fits. Flattering cuts. Luxe materials. All within the AnyBody app."
                     }, void 0, false, {
                         fileName: "[project]/src/components/BigCTA.tsx",
                         lineNumber: 29,
@@ -1545,7 +1561,7 @@ const BigCTA = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-sm md:text-base text-primary-foreground/90",
-                        children: "Free download • No subscription • Product Satisfaction guarantee"
+                        children: "• Effortless Fits • Premium Fabrics • Free Exchanges"
                     }, void 0, false, {
                         fileName: "[project]/src/components/BigCTA.tsx",
                         lineNumber: 56,

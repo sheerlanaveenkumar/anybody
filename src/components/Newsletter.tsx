@@ -21,11 +21,10 @@ const Newsletter = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Join the AnyBody Circle.
+            Join The AnyBody Collective
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Be the first to know about new collections, styling stories, and
-            exclusive events.
+            Get early access to new drops, behind the scenes stories, and exclusive app only perks.
           </p>
 
           {/* Form */}
@@ -48,8 +47,7 @@ const Newsletter = () => {
 
           {/* Microcopy */}
           <p className="text-sm text-muted-foreground mt-6">
-            We respect your inbox...
-            {/* Only meaningful updates, never spam. */}
+            No spam. Just style.
           </p>
         </div>
       </div>

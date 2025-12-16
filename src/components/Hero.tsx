@@ -24,7 +24,7 @@ const Hero = () => {
           Luxury, Tailored for <br /> Every Body.
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-12 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          Timeless, body-inclusive fashion designed with empathy, precision, and confidence.
+          Premium, size inclusive fashion designed from scratch for plus-size bodies.
         </h2>
 
         {/* CTAs */}
@@ -51,7 +51,7 @@ const Hero = () => {
 
         {/* Microcopy */}
         <p className="text-sm md:text-base text-primary-foreground/90 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-          Seamless Shopping • Free Exchanges • Product Satisfaction Guarantee
+          • Effortless Fits • Premium Fabrics • Free Exchanges
         </p>
       </div>
 

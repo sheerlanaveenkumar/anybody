@@ -108,14 +108,17 @@ const CollectionPreview = () => {
           variants={fadeIn}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Crafted with care, designed with purpose.
+          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+            Designed to flatter. <br /> Made to feel good.
           </h2>
-          <p className="text-lg text-muted-foreground">
-            From precision tailoring to fluid silhouettes, every piece tells a story of comfort, elegance, and self-expression.
+          <p className="text-xl text-muted-foreground">
+            Every stitch, every seam, every silhouette is shaped to celebrate, not conceal, your body.
           </p>
-          <p className="text-lg text-muted-foreground mt-4">
-            Experience fashion that complements individuality not conformity.
+          <p className="text-xl text-muted-foreground">
+            We source world-class fabrics and focus on timeless essentials that feel as luxe as they look.
+          </p>
+          <p className="text-xl text-muted-foreground mt-4">
+            Whether it’s elevated everyday wear or standout occasion pieces, you’ll always feel styled, never squeezed.
           </p>
         </motion.div>
 

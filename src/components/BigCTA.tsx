@@ -24,10 +24,10 @@ const BigCTA = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-primary-foreground">
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-          Your wardrobe evolution starts here.
+          Your new wardrobe starts here.
         </h2>
         <p className="text-xl md:text-2xl font-light mb-12 max-w-3xl mx-auto">
-          Discover the perfect balance of luxury, comfort, and confidence all within the AnyBody App.
+          Refined fits. Flattering cuts. Luxe materials. All within the AnyBody app.
         </p>
 
         {/* CTAs */}
@@ -54,7 +54,7 @@ const BigCTA = () => {
 
         {/* Microcopy */}
         <p className="text-sm md:text-base text-primary-foreground/90">
-          Free download • No subscription • Product Satisfaction guarantee
+          • Effortless Fits • Premium Fabrics • Free Exchanges
         </p>
       </div>
     </section>

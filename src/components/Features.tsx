@@ -31,23 +31,23 @@ const Features = () => {
   const features = [
     {
       icon: Ruler,
-      title: "Authentic Fit",
-      description: "Each pattern engineered around diverse body shapes not scaled up.",
+      title: "True Plus-Size Design",
+      description: "Each piece is built from the ground up for curvier bodies.",
     },
     {
       icon: Sparkles,
       title: "Luxury Fabrics",
-      description: "Premium textiles sourced from world-class mills.",
+      description: "We source only soft, breathable, premium-grade textiles.",
     },
     {
       icon: Users,
-      title: "Inclusive Range",
-      description: "Sizes L-5XL, for all identities and expressions.",
+      title: "Flawless Fit Range",
+      description: "Sizes from L to 5XL with real body prototypes - not just models.",
     },
     {
       icon: Heart,
-      title: "Crafted for Confidence",
-      description: "Minimalist silhouettes that move with you, not against you.",
+      title: "Minimalist Aesthetic",
+      description: "Elevated styles that are timeless and trend-aware.",
     },
   ];
 
@@ -61,7 +61,7 @@ const Features = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Designed around real bodies.
+            What makes us different? Everything.
           </h2>
         </div>
 
@@ -86,7 +86,7 @@ const Features = () => {
             size="lg"
             onClick={() => alert('Size guide feature coming soon!')}
           >
-            Find Your Perfect Fit
+            Find Your Fit
           </ButtonCustom>
         </div>
       </div>

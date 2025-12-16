@@ -76,10 +76,10 @@ const ImmersiveStory = () => {
         {/* Supporting Copy */}
         <div className="max-w-3xl mx-auto space-y-6 mb-12">
           <p className="text-xl md:text-2xl font-light">
-            Step into a world where luxury meets empathy.
+            Step into a space where your body isn&#39;t “othered” - it’s the standard.
           </p>
           <p className="text-lg md:text-xl">
-            Where every stitch is guided by craftsmanship, and every curve is celebrated not corrected.
+            Where fit meets finesse. And comfort walks with confidence.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ const ImmersiveStory = () => {
           onClick={scrollToFeatures}
           className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
         >
-          Begin Your Journey
+          Begin Your Style Journey
         </ButtonCustom>
       </div>
     </section>

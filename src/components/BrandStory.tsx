@@ -51,29 +51,29 @@ const BrandStory = () => {
             transition={{ duration: 0.8, ease: "easeOut", staggerChildren: 0.15 }}
           >
             <motion.h2
-              className="text-4xl md:text-5xl font-bold"
+              className="text-3xl md:text-4xl font-bold"
               variants={textVariants}
             >
-              Inclusive by design, not by trend.
+              Not extended sizes. Exclusive fits.
             </motion.h2>
             <motion.p
               className="text-lg text-muted-foreground"
               variants={textVariants}
             >
-              AnyBody is a premium, body-inclusive fashion brand rooted in British-inspired tailoring and minimalist design.
+              Most brands grade up patterns. We start with yours.
             </motion.p>
             <motion.p
               className="text-lg text-muted-foreground"
               variants={textVariants}
             >
-              We create timeless clothing for people often left out of traditional sizing starting from size L, with a commitment to embrace every gender identity and expression.
+              At AnyBody, we create fashion specifically for plus-size bodies, using high-quality fabrics and precision tailoring
+              that’s made to flatter, move, and last.
             </motion.p>
             <motion.p
               className="text-lg text-muted-foreground"
               variants={textVariants}
             >
-              Our inclusivity is authentic and built into the way we design - not just in the way
-              we communicate. Each piece is crafted to fit beautifully, feel effortless, and express quiet confidence.
+              Because feeling confident in your clothes shouldn’t feel like a compromise.
             </motion.p>
             <motion.div variants={textVariants}>
               <ButtonCustom
@@ -82,7 +82,7 @@ const BrandStory = () => {
                 onClick={scrollToCollection}
                 className="mt-4"
               >
-                Discover Our Story
+                Discover The Difference
               </ButtonCustom>
             </motion.div>
           </motion.div>
