@@ -9,11 +9,11 @@ import collection5 from "@/assets/collection-5.png";
 import collection6 from "@/assets/collection-6.png";
 
 const fadeIn: Variants = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0, y: 60 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] }
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] }
   }
 };
 
@@ -104,22 +104,22 @@ const CollectionPreview = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={fadeIn}
+          viewport={{ once: false, margin: "-100px" }}
+          variants={staggerContainer}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+          <motion.h2 variants={fadeIn} className="text-4xl md:text-6xl font-bold mb-6">
             Designed to flatter. <br /> Made to feel good.
-          </h2>
-          <p className="text-lg text-muted-foreground">
+          </motion.h2>
+          <motion.p variants={fadeIn} className="text-lg text-muted-foreground">
             Every stitch, every seam, every silhouette is shaped to celebrate, not conceal, your body.
-          </p>
-          <p className="text-lg text-muted-foreground">
+          </motion.p>
+          <motion.p variants={fadeIn} className="text-lg text-muted-foreground">
             We source world-class fabrics and timeless essentials that feel as luxe as they look.
-          </p>
-          <p className="text-lg text-muted-foreground mt-4">
+          </motion.p>
+          <motion.p variants={fadeIn} className="text-lg text-muted-foreground mt-4">
             Whether it’s elevated everyday wear or standout occasion pieces, you’ll always feel styled, never squeezed.
-          </p>
+          </motion.p>
         </motion.div>
 
         {/* Collection Grid */}
@@ -127,7 +127,7 @@ const CollectionPreview = () => {
           variants={staggerContainer}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: false, margin: "-100px" }}
           className="grid md:grid-cols-3 gap-8 mb-12"
         >
           {collectionItems.map((item) => (
@@ -136,7 +136,13 @@ const CollectionPreview = () => {
         </motion.div>
 
         {/* CTA */}
-        <div className="text-center">
+        <motion.div
+          className="text-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, margin: "-100px" }}
+          variants={fadeIn}
+        >
           <ButtonCustom
             variant="app"
             size="lg"
@@ -144,7 +150,7 @@ const CollectionPreview = () => {
           >
             Explore the Collection in the App
           </ButtonCustom>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -20,15 +20,33 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-primary-foreground">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in-up">
+        <motion.h1
+          className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           Luxury, Tailored for <br /> Every Body.
-        </h1>
-        <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-12 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+        </motion.h1>
+        <motion.h2
+          className="text-xl md:text-2xl lg:text-3xl font-light mb-12 max-w-4xl mx-auto"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+        >
           Premium, size inclusive fashion designed from scratch for plus-size bodies.
-        </h2>
+        </motion.h2>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+        <motion.div
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+        >
           <ButtonCustom
             variant="hero"
             size="lg"
@@ -47,12 +65,18 @@ const Hero = () => {
             <Play className="w-5 h-5" />
             Get it on Google Play
           </ButtonCustom>
-        </div>
+        </motion.div>
 
         {/* Microcopy */}
-        <p className="text-sm md:text-base text-primary-foreground/90 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+        <motion.p
+          className="text-sm md:text-base text-primary-foreground/90"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: false }}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.6 }}
+        >
           • Effortless Fits • Premium Fabrics • Free Exchanges
-        </p>
+        </motion.p>
       </div>
 
       {/* Scroll Indicator */}

@@ -38,7 +38,10 @@ export const metadata: Metadata = {
         images: ["/opengraph-image.png"],
     },
     icons: {
-        icon: "/favicon.png",
+        icon: [
+            { url: '/favicon.svg', media: '(prefers-color-scheme: light)' },
+            { url: '/favicon.png', media: '(prefers-color-scheme: dark)' },
+        ],
         shortcut: "/favicon.png",
         apple: "/apple-touch-icon.png",
         other: [

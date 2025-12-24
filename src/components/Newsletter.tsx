@@ -2,6 +2,16 @@ import { useState } from "react";
 import { ButtonCustom } from "./ui/button-custom";
 import { Input } from "./ui/input";
 import { toast } from "sonner";
+import { motion, Variants } from "framer-motion";
+
+const fadeIn: Variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] }
+  }
+};
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
@@ -19,18 +29,33 @@ const Newsletter = () => {
   return (
     <section id="newsletter" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-6">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <motion.div
+          className="max-w-2xl mx-auto text-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, margin: "-100px" }}
+          variants={{
+            visible: { transition: { staggerChildren: 0.2 } }
+          }}
+        >
+          <motion.h2
+            className="text-4xl md:text-5xl font-bold mb-6"
+            variants={fadeIn}
+          >
             Join The AnyBody Collective
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8">
+          </motion.h2>
+          <motion.p
+            className="text-lg text-muted-foreground mb-8"
+            variants={fadeIn}
+          >
             Get early access to new drops, behind the scenes stories, and exclusive app only perks.
-          </p>
+          </motion.p>
 
           {/* Form */}
-          <form
+          <motion.form
             onSubmit={handleSubmit}
             className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto"
+            variants={fadeIn}
           >
             <Input
               type="email"
@@ -43,13 +68,16 @@ const Newsletter = () => {
             <ButtonCustom type="submit" variant="default" size="lg">
               Subscribe
             </ButtonCustom>
-          </form>
+          </motion.form>
 
           {/* Microcopy */}
-          <p className="text-sm text-muted-foreground mt-6">
+          <motion.p
+            className="text-sm text-muted-foreground mt-6"
+            variants={fadeIn}
+          >
             No spam. Just style.
-          </p>
-        </div>
+          </motion.p>
+        </motion.div>
       </div>
     </section>
   );

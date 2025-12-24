@@ -8,20 +8,20 @@ const BrandStory = () => {
     document.getElementById('collection-preview')?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const viewportOpts = { once: true, amount: 0.3 } as const;
+  const viewportOpts = { once: false, amount: 0.3 } as const;
   const imageVariants = {
-    hidden: { opacity: 0, x: -60 },
+    hidden: { opacity: 0, x: -80 },
     visible: { opacity: 1, x: 0 },
   };
   const textVariants = {
-    hidden: { opacity: 0, x: 60 },
+    hidden: { opacity: 0, x: 80 },
     visible: { opacity: 1, x: 0 },
   };
 
   return (
     <section
       id="brand-story"
-      className="py-20 md:py-20 bg-background"
+      className="py-8 md:py-8 bg-background overflow-hidden"
     >
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -36,7 +36,7 @@ const BrandStory = () => {
             <Image
               src={brandStoryImg}
               alt="Model in tailored neutral outfit showcasing British-inspired design"
-              className="w-[600px] h-[700px] rounded-lg shadow-elegant"
+              className="w-full h-auto aspect-[6/7] object-cover rounded-lg shadow-elegant"
               placeholder="blur"
             />
           </motion.div>

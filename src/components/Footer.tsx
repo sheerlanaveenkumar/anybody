@@ -1,4 +1,14 @@
 import { Instagram, Facebook } from "lucide-react";
+import { motion, Variants } from "framer-motion";
+
+const fadeIn: Variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] }
+  }
+};
 
 const Pinterest = ({ className }: { className?: string }) => (
   <svg
@@ -23,17 +33,25 @@ const Footer = () => {
   return (
     <footer id="footer" className="bg-muted border-t border-border">
       <div className="container mx-auto px-6 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20">
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, margin: "-50px" }}
+          variants={{
+            visible: { transition: { staggerChildren: 0.1 } }
+          }}
+        >
           {/* Brand Section */}
-          <div className="space-y-6">
+          <motion.div className="space-y-6" variants={fadeIn}>
             <h2 className="text-2xl font-serif font-bold tracking-tight">AnyBody</h2>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Fashion that fits - because it was made for you.
             </p>
-          </div>
+          </motion.div>
 
           {/* Company */}
-          <div>
+          <motion.div variants={fadeIn}>
             <h3 className="font-semibold text-lg mb-6">Company</h3>
             <ul className="space-y-4">
               <FooterLink href="/">Home</FooterLink>
@@ -41,10 +59,10 @@ const Footer = () => {
               {/* <FooterLink href="#">Terms of Service</FooterLink> */}
               <FooterLink href="/#newsletter">Contact Us</FooterLink>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Connect */}
-          <div>
+          <motion.div variants={fadeIn}>
             <h3 className="font-semibold text-lg mb-6">Connect</h3>
             <div className="flex gap-4">
               <SocialLink href="#" icon={<Instagram className="w-5 h-5" />} />
@@ -52,18 +70,25 @@ const Footer = () => {
               {/* <SocialLink href="#" icon={<Twitter className="w-5 h-5" />} /> */}
               <SocialLink href="#" icon={<Pinterest className="w-5 h-5" />} />
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
         {/* Bottom Bar */}
-        <div className="mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground">
+        <motion.div
+          className="mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false }}
+          variants={fadeIn}
+          transition={{ delay: 0.2 }}
+        >
           <p>© 2025 AnyBody. All rights reserved.</p>
           {/* <div className="flex gap-8">
             <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
             <a href="#" className="hover:text-foreground transition-colors">Cookie Policy</a>
           </div> */}
-        </div>
+        </motion.div>
       </div>
     </footer>
   );
