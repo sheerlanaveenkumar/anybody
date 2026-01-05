@@ -107,9 +107,11 @@ All colors MUST be HSL.
     @apply font-serif;
   }
 
-  /* Smooth scrolling */
-  html {
+  /* Smooth scrolling and overflow handling */
+  html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
   }
 
   /* Selection styling */

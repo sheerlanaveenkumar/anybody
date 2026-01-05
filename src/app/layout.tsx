@@ -55,6 +55,8 @@ export const metadata: Metadata = {
     },
 };
 
+import MobileAppBanner from "@/components/MobileAppBanner";
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -64,6 +66,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
                 <JsonLd />
+                <MobileAppBanner />
                 <Providers>{children}</Providers>
             </body>
         </html>
