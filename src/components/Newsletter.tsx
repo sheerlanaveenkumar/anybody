@@ -63,9 +63,9 @@ const Newsletter = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="flex-1 h-12"
+              className="flex-1 h-14"
             />
-            <ButtonCustom type="submit" variant="default" size="lg">
+            <ButtonCustom type="submit" variant="default" size="lg" className="w-full sm:w-auto">
               Subscribe
             </ButtonCustom>
           </motion.form>
