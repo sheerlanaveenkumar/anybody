@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState, useEffect } from "react";
 import { ButtonCustom } from "./ui/button-custom";
 import { motion, Variants } from "framer-motion";
 import collection1 from "@/assets/collection-1.jpg";
@@ -48,17 +49,40 @@ const collectionItems = [
   },
 ];
 
-const FlipCard = ({ item }: { item: typeof collectionItems[0] }) => {
+const FlipCard = ({
+  item,
+  isOpen,
+  onToggle
+}: {
+  item: typeof collectionItems[0];
+  isOpen: boolean;
+  onToggle: (open: boolean) => void;
+}) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if the device is touch-primary (no hover capability)
+    const media = window.matchMedia("(hover: none)");
+    setIsMobile(media.matches);
+
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    media.addEventListener("change", handler);
+    return () => media.removeEventListener("change", handler);
+  }, []);
+
   return (
     <motion.div
       variants={fadeIn}
       className="group h-[400px] perspective-1000"
       style={{ perspective: "1000px" }}
+      onHoverStart={() => !isMobile && onToggle(true)}
+      onHoverEnd={() => !isMobile && onToggle(false)}
+      onClick={() => isMobile && onToggle(!isOpen)}
     >
       <motion.div
         className="relative w-full h-full transition-all duration-500"
         style={{ transformStyle: "preserve-3d" }}
-        whileHover={{ rotateY: 180 }}
+        animate={{ rotateY: isOpen ? 180 : 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
       >
         {/* Front Face */}
@@ -97,6 +121,8 @@ const FlipCard = ({ item }: { item: typeof collectionItems[0] }) => {
 };
 
 const CollectionPreview = () => {
+  const [activeCardId, setActiveCardId] = useState<number | null>(null);
+
   return (
     <section id="collection-preview" className="py-24 md:py-32 bg-muted">
       <div className="container mx-auto px-6">
@@ -131,7 +157,12 @@ const CollectionPreview = () => {
           className="grid md:grid-cols-3 gap-8 mb-12"
         >
           {collectionItems.map((item) => (
-            <FlipCard key={item.id} item={item} />
+            <FlipCard
+              key={item.id}
+              item={item}
+              isOpen={activeCardId === item.id}
+              onToggle={(open) => setActiveCardId(open ? item.id : null)}
+            />
           ))}
         </motion.div>
 
